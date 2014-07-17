@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<h1>PHP Test Page</h1>
+
+<h2>PHP Test Form</h2>
+
+<form action="insert.php" method="post">
+Name:<br>
+First: <input type="text" name="fname">
+Middle: <input type="text" name="mname">
+Last: <input type="text" name="lname"><br>
+Date of Birth:<br>
+Day: <input type="integer" name="dbirth">
+Month: <input type="text" name="mbirth">
+Year: <input type="integer" name="ybirth"> <br>
+<input type="submit">
+</form>
+
+<p>
+<a href="select.php">
+Click here to view table contents.
+</a>
+</p>
+
+
+<!-- 
+<?php
+
+
+function getFormValues() {
+$fname = $_REQUEST['fname'];
+$mname = $_REQUEST['mname'];
+$lname = $_REQUEST['lname'];
+$dbirth = $_REQUEST['dbirth'];
+$mbirth = $_REQUEST['mbirth'];
+$ybirth = $_REQUEST['ybirth'];
+
+echo "Your name is " . $fname . " " . $mname . " " . $lname . ".<br>";
+echo "Your birthday is " . $mbirth . " " . $dbirth . ", " . $ybirth . ".<br>";
+
+}
+
+getFormValues();
+
+?> 
+-->
+
+
+</body>
+
+</html>

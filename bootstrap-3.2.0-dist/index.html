@@ -1,0 +1,310 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+
+<form action="insert.php" method="post" class="form-horizontal" style="padding:40px;">
+<fieldset>
+
+<!-- Form Name -->
+<legend>A100 Apprentice Form</legend>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="name">Name</label>
+  <div class="controls">
+    <input id="name" name="name" type="text" placeholder="enter your name here" class="input-xlarge" required="">
+    
+  </div>
+</div>
+
+<!-- Select Basic -->
+<div class="control-group">
+  <label class="control-label" for="cohort">Cohort</label>
+  <div class="controls">
+    <select id="cohort" name="cohort" class="input-large" required="">
+      <option>Spring 2014</option>
+      <option>Summer 2014</option>
+      <option>Fall 2014</option>
+      <option>Winter 2014</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="address">Address</label>
+  <div class="controls">                     
+    <textarea id="address" name="address" style:"">enter your street name</textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="city">City</label>
+  <div class="controls">
+    <input id="city" name="city" type="text" placeholder="enter your city" class="input-xlarge" required>
+    
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="control-group">
+  <label class="control-label" for="state">State</label>
+  <div class="controls">
+    <select id="state" name="state" class="input-xlarge" multiple="multiple">
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option>Arizona</option>
+      <option>Arkansas</option>
+      <option>California</option>
+      <option>Colorado</option>
+      <option>Connecticut</option>
+      <option>Delaware</option>
+      <option>Florida</option>
+      <option>Georgia</option>
+      <option>Hawaii</option>
+      <option>Idaho</option>
+      <option>Illinois</option>
+      <option>Indiana</option>
+      <option>Iowa</option>
+      <option>Kansas</option>
+      <option>Kentucky</option>
+      <option>Louisiana</option>
+      <option>Maine</option>
+      <option>Maryland</option>
+      <option>Massachusetts</option>
+      <option>Michigan</option>
+      <option>Minnesota</option>
+      <option>Mississippi</option>
+      <option>Missouri</option>
+      <option>Montana</option>
+      <option>Nebraska</option>
+      <option>Nevada</option>
+      <option>New Hampshire</option>
+      <option>New Jersey</option>
+      <option>New Mexico</option>
+      <option>New York</option>
+      <option>North Carolina</option>
+      <option>North Dakota</option>
+      <option>Ohio</option>
+      <option>Oklahoma</option>
+      <option>Oregon</option>
+      <option>Pennsylvania</option>
+      <option>Rhode Island</option>
+      <option>South Carolina</option>
+      <option>South Dakota</option>
+      <option>Tennessee</option>
+      <option>Texas</option>
+      <option>Utah</option>
+      <option>Vermont</option>
+      <option>Virginia</option>
+      <option>Washington</option>
+      <option>West Virginia</option>
+      <option>Wisconsin</option>
+      <option>Wyoming</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="telephone">Telephone</label>
+  <div class="controls">
+    <input id="telephone" name="telephone" type="text" placeholder="(XXX) XXX - XXXX" class="input-large">
+    <p class="help-block">write the number in (XXX) XXX - XXXX</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="school">University</label>
+  <div class="controls">
+    <input id="school" name="school" type="text" placeholder="enter your university name" class="input-xlarge" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="graduation">Graduation Date</label>
+  <div class="controls">
+    <input id="graduation" name="graduation" type="text" placeholder="enter your graduation date" class="input-xlarge" required="">
+    <p class="help-block">Enter graduation date or expected graduation date</p>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="visa">Visa Status</label>
+  <div class="controls">
+    <input id="visa" name="visa" type="text" placeholder="enter your visa status if applicable" class="input-xlarge" required="">
+    <p class="help-block">Enter if applicable, else write none</p>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="control-group">
+  <label class="control-label" for="veteran">Veteran Status</label>
+  <div class="controls"  style="padding-left:30px;">
+    <label class="radio" for="veteran-0">
+      <input type="radio" name="veteran" id="veteran-0" value="Yes, I am a Veteran" checked="checked">
+      Yes, I am a Veteran
+    </label>
+    <label class="radio" for="veteran-1">
+      <input type="radio" name="veteran" id="veteran-1" value="No, I am not a Veteran">
+      No, I am not a Veteran
+    </label>
+    <label class="radio" for="veteran-2">
+      <input type="radio" name="veteran" id="veteran-2" value="I donot wish to disclose">
+      I donot wish to disclose
+    </label>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="comments">Comments</label>
+  <div class="controls">                     
+    <textarea id="comments" name="comments">Not sure why this is there in the Apprentice form</textarea>
+  </div>
+</div>
+<br />
+<!-- Multiple Radios -->
+<div class="control-group">
+  <label class="control-label" for="workexperience">Work Experience</label>
+  <div class="controls" style="padding-left:30px;">
+    <label class="radio" for="workexperience-0">
+      <input type="radio" name="work experience" id="workexperience-0" value="None" checked="checked">
+      None
+    </label>
+    <label class="radio" for="workexperience-1">
+      <input type="radio" name="work experience" id="workexperience-1" value="I have taken =3 courses that use the same programming language.">
+      I have taken =3 courses that use the same programming language.
+    </label>
+    <label class="radio" for="workexperience-2">
+      <input type="radio" name="work experience" id="workexperience-2" value="I have built several projects on my own time, not for school.">
+      I have built several projects on my own time, not for school.
+    </label>
+    <label class="radio" for="workexperience-3">
+      <input type="radio" name="work experience" id="workexperience-3" value="I have little formal training in programming, but have taught myself the essentials and have worked on personal projects.">
+      I have little formal training in programming, but have taught myself the essentials and have worked on personal projects.
+    </label>
+  </div>
+</div>
+<br />
+<!-- Multiple Checkboxes -->
+<div class="control-group">
+  <label class="control-label" for="languages">Languages and Environment</label>
+  <div class="controls"  style="padding-left:30px;">
+    <label class="checkbox" for="languages-0">
+      <input type="checkbox" name="unix_linux" id="languages-0" value="unix_linux">
+      UNIX / LINUX
+    </label>
+    <label class="checkbox" for="languages-1">
+      <input type="checkbox" name="sql" id="languages-1" value="sql">
+      SQL
+    </label>
+    <label class="checkbox" for="languages-2">
+      <input type="checkbox" name="git" id="languages-2" value="git">
+      Git
+    </label>
+    <label class="checkbox" for="languages-3">
+      <input type="checkbox" name="wordpress" id="languages-3" value="wordpress">
+      WordPress
+    </label>
+    <label class="checkbox" for="languages-4">
+      <input type="checkbox" name="drupal" id="languages-4" value="drupal">
+      Drupal
+    </label>
+    <label class="checkbox" for="languages-5">
+      <input type="checkbox" name="python" id="languages-5" value="python">
+      Python
+    </label>
+    <label class="checkbox" for="languages-6">
+      <input type="checkbox" name="svn" id="languages-6" value="svn">
+      Sub Version Control (SVN)
+    </label>
+    <label class="checkbox" for="languages-7">
+      <input type="checkbox" name="objective_c" id="languages-7" value="objective_c">
+      Objective C
+    </label>
+    <label class="checkbox" for="languages-8">
+      <input type="checkbox" name="ruby_rails" id="languages-8" value="ruby_rails">
+      Ruby on Rails
+    </label>
+    <label class="checkbox" for="languages-9">
+      <input type="checkbox" name="c_plusplus" id="languages-9" value="c_plusplus">
+      C++
+    </label>
+    <label class="checkbox" for="languages-10">
+      <input type="checkbox" name="dot_net" id="languages-10" value="dot_net">
+      .NET
+    </label>
+    <label class="checkbox" for="languages-11">
+      <input type="checkbox" name="php" id="languages-11" value="php">
+      PHP
+    </label>
+    <label class="checkbox" for="languages-12">
+      <input type="checkbox" name="html_css" id="languages-12" value="html_css">
+      HTML and CSS
+    </label>
+    <label class="checkbox" for="languages-13">
+      <input type="checkbox" name="java" id="languages-13" value="java">
+      Java
+    </label>
+    <label class="checkbox" for="languages-14">
+      <input type="checkbox" name="javascript" id="languages-14" value="javascript">
+      Javascript
+    </label>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="interest1">Interest 1</label>
+  <div class="controls">                     
+    <textarea id="interest1" name="interest1">Enter your interest here</textarea>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="interest2">Interest 2</label>
+  <div class="controls">                     
+    <textarea id="interest2" name="interest2">Enter your interest here</textarea>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="control-group">
+  <label class="control-label" for="interest3">Interest 3</label>
+  <div class="controls">                     
+    <textarea id="interest3" name="interest3">Enter your interest here</textarea>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="control-group">
+  <label class="control-label" for="Email">Email</label>
+  <div class="controls">
+    <input id="Email" name="Email" type="text" placeholder="enter your email address here" class="input-xlarge">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="control-group">
+  <label class="control-label" for="submit"></label>
+  <div class="controls">
+    <button id="submit" name="submit" type="submit" class="btn btn-success">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
+

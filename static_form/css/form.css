@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 23, 2014, 2:24:23 PM
+    Author     : pinxiali
+*/
+
+#main {
+    background-color: #eb9316;
+    padding-bottom: 5px; 
+}
+
+/*.display {
+    background: #dbdbdb;
+}*/
+
+label { 
+    width: 16em; 
+    height: 2em;
+}
+input type :submit { 
+    width: 20em; 
+    height: 2em;
+}
+
+input type :text{
+    width: 2em; 
+    height: 2em;
+}
+
+.spacer {
+    height: 5px; 
+    width: 95%;
+    border-radius: 5px ; 
+    background-color: #d6e9c6;
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 15px auto; 
+    height: 3em;
+    padding-top: 1em;
+    padding-left: 2em;
+    
+}
+
+th { 
+   height: 40px; 
+   width: auto;
+   background: #e38d13;
+   padding-left: 5px; 
+}
+td { 
+    height: 35px;
+    padding-left: 3px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+legend {
+    color: #2b669a;
+}
+
+#login .spacer {
+    display: none;
+}
+
+#login fieldset {
+    margin: 10px auto;
+}
+
+#login #submit {
+    width: 13em;
+    font-weight: bold;
+    margin-left:10%;
+}
+
+#login label {
+    width: 10em;
+    padding-left: 20px;
+}
+
+#login input {
+    width: 18em;
+}
+.divider {
+    width: 35%;
+    border: 1px solid #2b669a;
+    margin-top: -13px;
+}
+
+/*tr {
+    display: inline-block;
+}
+
+tbody {
+    white-space:nowrap;
+}*/

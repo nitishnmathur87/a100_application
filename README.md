@@ -12,6 +12,7 @@ PDO is used for the PHP functionality.
 The complete front end form is done in Twitter Bootstrap framework.
 
 Team Members:
+
 Nitish Mathur
 
 Pinxia Li
